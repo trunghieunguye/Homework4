@@ -35,7 +35,6 @@ public class Ex12 {
             }
             return arr;
         }
-
         public static int[][] MatrixProduct(int[][] arr1, int[][] arr2){
             int[][] MatrixProduct = new int[arr1.length][arr2[0].length];
             for (int i = 0; i < MatrixProduct.length; i++) {

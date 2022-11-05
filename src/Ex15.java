@@ -5,12 +5,10 @@ public class Ex15 {
         int sum = cal(n);
         System.out.println("Sum = "+sum);
     }
-
     public static int input() {
         System.out.print("Enter n = ");
         return new Scanner(System.in).nextInt();
     }
-
     public static int cal(int n){
         int sum = 0;
         for (int i = 1; i <= n; i++) {

@@ -5,12 +5,10 @@ public class Ex14 {
         double sum = cal(n);
         System.out.println("1 + 1/2 + 1/3 + ... + 1/n = "+sum);
     }
-
     public static double input() {
         System.out.print("Enter n = ");
         return new  Scanner(System.in).nextDouble();
     }
-
     public static double cal(double n){
         double sum = 0;
         for (double i = 1; i <= n; i++) {

@@ -3,7 +3,6 @@ public class Ex13 {
     public static void main(String[] args) {
         SquareNumbers();
     }
-
     public static void SquareNumbers(){
         System.out.println("For m < n");
         System.out.print("Enter m = ");
